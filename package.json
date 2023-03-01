@@ -1,0 +1,27 @@
+{
+  "name": "final",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch assets/scss/style.scss  assets/css/style.css",
+    "build": "purgecss --css assets/css/style.css --content *.html -o assets/css/reducido.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "sass": "^1.58.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lauritaweb/candleShop3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lauritaweb/candleShop3/issues"
+  },
+  "homepage": "https://github.com/Lauritaweb/candleShop3#readme",
+  "description": ""
+}

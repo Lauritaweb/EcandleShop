@@ -1,0 +1,145 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto+Slab:wght@500&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+  color: deeppink;
+}
+
+.text-pink {
+  color: deeppink;
+}
+
+.bg-violet {
+  background-color: deeppink;
+}
+
+#botonera {
+  opacity: 0.5;
+}
+#botonera img {
+  width: 180px;
+}
+#botonera ul li a {
+  color: white;
+  font-weight: 300;
+}
+#botonera ul li a:hover {
+  color: rgb(238, 188, 247);
+}
+
+.card button {
+  background-color: deeppink;
+  color: white;
+  border: none !important;
+}
+.card button:hover {
+  border: none !important;
+  color: white;
+  background-image: linear-gradient(to top, deeppink, rgb(238, 188, 247));
+}
+.card h2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden; /*si no se declara añade los ... pero muestra todo el texto*/
+}
+.card p {
+  min-height: 50px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden; /*si no se declara añade los ... pero muestra todo el texto*/
+}
+.card .price {
+  color: rgb(33, 33, 33);
+  font-weight: 800;
+}
+
+.btn-outline-primary {
+  border-color: deeppink !important;
+  color: deeppink !important;
+}
+.btn-outline-primary:hover {
+  border-color: none !important;
+  background-color: deeppink !important;
+  color: white !important;
+}
+@media (width < 768px) {
+  .btn-outline-primary {
+    width: 100%;
+  }
+}
+
+#bodyCarrito p {
+  font-weight: 300;
+}
+
+footer {
+  opacity: 0.5;
+}
+
+button.swal {
+  background-color: deeppink;
+}
+
+.spinner-border {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 1000;
+  color: deeppink;
+  display: none;
+}
+.spinner-border.show {
+  display: block;
+}
+.spinner-border span {
+  transform: rotate(0deg);
+}
+
+form select.form-select.col-md-6.date {
+  display: inline !important;
+  width: auto;
+  margin-left: 10px;
+}
+form .form-check-input:checked {
+  background-color: deeppink;
+  border: none;
+}
+
+@media (width < 992px) {
+  .box-plus-minus div.w-50,
+  .box-plus-minus button.w-50 {
+    width: 100% !important;
+  }
+}
+@media (width < 992px) {
+  .box-plus-minus button.w-50 {
+    margin: 20px auto;
+  }
+}
+
+#productos .card-body {
+  padding: 0 20px;
+}
+#productos .box-plus-minus {
+  margin-bottom: 10px;
+  align-items: flex-start;
+}
+#productos .box-plus-minus input {
+  margin: 0 10px;
+  border-radius: 3px;
+  text-align: center;
+}
+#productos .box-plus-minus button.btn-add {
+  font-size: 0.8em;
+  transform: translateY(-3px);
+}
+#productos .box-plus-minus button {
+  height: 36px;
+}
+
+/*# sourceMappingURL=style.css.map */

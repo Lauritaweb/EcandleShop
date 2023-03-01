@@ -1,0 +1,58 @@
+[
+    {
+        "codigo": 1,
+        "nombre": "Tin Lima",
+        "descrition":"Vela aromática de cera vegetal en envase metalico esmaltado",
+        "valor": "2790",
+        "img": "Tin_Lima.jpg"
+    },
+    {
+        "codigo": 2,
+        "nombre": "Max Citrus",
+        "descrition":"Vela de cera vegetal en envase de vidrio de 12 cm de diametro y 12 cm de alto",
+        "valor": "7100",
+        "img": "Max_Citrus.jpg"
+    },
+    {
+        "codigo": 3,
+        "nombre": "Glow Silver XL",
+        "descrition":"Vela aromatica de cera vegetal en vaso de vidrio de 12 cm de diametro y 12 cm de alto",
+        "valor": "5900",
+        "img": "Glow_Silver_XL.jpg"
+    },
+    {
+        "codigo": 4,
+        "nombre": "Vela Queen II Black Vetiver",
+        "descrition":"Vela de cera vegetal en vaso de vidrio con campana protectora de 9 cm de diametro y 12 cm de alto",
+        "valor": "5000",
+        "img": "Vela_Queen_II.jpg"
+    },
+    {
+        "codigo": 5,
+        "nombre": "Sandia Pepino 10 X 10",
+        "descrition":"Vela de 10 cm de diametro y 10 cm de alto",
+        "valor": "3450",
+        "img": "Sandia_Pepino_10X10.jpg"
+    },
+    {
+        "codigo": 6,
+        "nombre": "Cubito Citrus",
+        "descrition":"Vela cubo de 5,5 cm de lado y 5,5 cm de alto",
+        "valor": "850",
+        "img": "Cubito_Citrus.jpg"
+    },
+    {
+        "codigo": 7,
+        "nombre": "Vela Tin Pepino",
+        "descrition":"Es una fragancia unisex, cítrica, fresca y limpia. Ideal para los ambientes cálidos veraniegos en espacios abiertos y relajados.",
+        "valor": "2500",
+        "img": "Tin_Pepino.jpg"
+    },
+    {
+        "codigo": 8,
+        "nombre": "Tin Canela",
+        "descrition":"Las fragancias orientales tienen gran intensidad y residualidad a lo largo de las horas. Son invasivas, abarcativas y la persona que las use nunca pasará inadvertida.",
+        "valor": "1020",
+        "img": "Tin_Canela.jpg"
+    }
+]

@@ -1,0 +1,20 @@
+// capturas DOM
+let products = document.getElementById("productos")
+let sort = document.getElementById("sortVelas")
+let inputSearch = document.querySelector("#buscador")
+let mensajes = document.getElementById("mensajes")
+let btnBuscar = document.getElementById("btnBuscador")
+let inputName = document.getElementById("inputName")
+let inputDescription = document.getElementById("inputDescription")
+let inputValor = document.getElementById("inputValor")
+let inputFoto = document.getElementById("inputFoto")
+let btnSave = document.getElementById("btnSave")
+let btnVerCarrito = document.getElementById("btnVerCarrito")
+let bodyCarrito = document.getElementById("bodyCarrito")
+let btnCleanTrolley = document.getElementById("btnCleanTrolley")
+let sumaTotalCarrito = document.getElementById("sumaTotalCarrito")
+let loading = document.getElementById("loading");
+let btnConfirm = document.getElementById("btnConfirm")
+let totalAbonarFin = document.getElementById("totalAbonarFin")
+let btnGracias = document.getElementById("btnGracias")
+
