@@ -18,7 +18,7 @@ Framework...
 - Bootstrap V :mega:
 
 Librerias...
-- SweetAlert
+- SweetAlert :yum:
 
 *El proyecto es responsive, se trabajó con el sistema de grilla de BS y sus utilities. 
 
