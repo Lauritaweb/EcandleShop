@@ -12,12 +12,14 @@ Lenguajes..
 - Sass :rocket:
 - Javascript :rocket:
 
-Framework
+Framework..
  - Bootstrap V :mega:
  
 *El proyecto es responsive, se trabajó con el sistema de grilla de BS y sus utilities. 
 
 Ampliando.. :loudspeaker:
+
+
 
 En Js se trabajó con funciones, arrays, condicionales, eventos y métodos. Los productos se cargan desde un archivo JSON y los datos del carrito se almacenan en el localstorage.
 
