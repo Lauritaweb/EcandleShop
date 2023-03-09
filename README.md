@@ -3,7 +3,7 @@ Este proyecto es ficticio, se ha realizado con el propósito de practicar JS. :t
 - Agregar productos al carrito de compra. 
 - Administrar los productos agregando o elliminando. 
 - Los mismos se pueden ordenar por valor y/o alfabéticamente. 
-- El usuario puedeo buscar.
+- El usuario puede buscar.
 - Es posible limpiar el carrito. 
 *La forma de pago es simulada y no tiene validación real, solo se da la salida y final de la compra. 
 
