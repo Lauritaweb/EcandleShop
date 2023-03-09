@@ -26,5 +26,5 @@ Ampliando.. :loudspeaker:
 
 
 
-En Js se trabajó con funciones, arrays, condicionales, eventos y métodos. Los productos se cargan desde un archivo JSON y los datos del carrito se almacenan en el localstorage.
+En Js se trabajó con funciones, arrays, condicionales, eventos y métodos. DOM. Los productos se cargan desde un archivo JSON y los datos del carrito se almacenan en el localstorage.
 
