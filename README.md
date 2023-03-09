@@ -3,6 +3,7 @@ Este proyecto es ficticio, se ha realizado con el propósito de practicar JS.
 - Simula ser un e-commerce de velas artesanales, el usuario puede agregar productos al carrito de compra. 
 - También tiene función como administrador y se puede agregar y eliminar productos. 
 - Se puede ordenar por valor y alfabéticamente. 
+- El usuario puedeo buscar.
 - Es posible limpiar el carrito. 
 *La forma de pago es simulada y no tiene validación real, solo se da la salida y final de la compra. 
 
