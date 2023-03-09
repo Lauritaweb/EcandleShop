@@ -16,3 +16,5 @@ Lenguajes..
 
 Ampliando.. 
 En Js se trabajó con funciones, arrays, condicionales, eventos y métodos. Los productos se cargan desde un archivo JSON y los datos del carrito se almacenan en el localstorage.
+
+:rocket::rocket::rocket:
