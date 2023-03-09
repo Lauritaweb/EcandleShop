@@ -1,5 +1,5 @@
 # EcandleShop
-Este proyecto es ficticio, se ha realizado con el propósito de practicar JS. 
+Este proyecto es ficticio, se ha realizado con el propósito de practicar JS. :technologist:
 - Simula ser un e-commerce de velas artesanales, el usuario puede agregar productos al carrito de compra. 
 - También tiene función como administrador y se puede agregar y eliminar productos. 
 - Se puede ordenar por valor y alfabéticamente. 
