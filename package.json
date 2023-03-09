@@ -5,8 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass",
-    "sass:watch": "sass --watch assets/scss/style.scss  assets/css/style.css",
-    "build": "purgecss --css assets/css/style.css --content *.html -o assets/css/reducido.css"
+    "sass:watch": "sass --watch assets/scss/style.scss  assets/css/style.css"
   },
   "author": "",
   "license": "ISC",
