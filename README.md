@@ -33,7 +33,7 @@ SASS:
    -En nuestra terminal con la ruta seleccionada a mi proyecto colocar los siguientes pasos:
    -Correr el comando npm install
    -Por último para correr el proyecto colocar: npm run sass:watch
-
+   
 Se utiliza Visual Studio Code o cualquier editor de código + terminal. 
 
 Autora: Laura Avalle - laheavy@gmail.com
