@@ -25,6 +25,16 @@ Librerias...
 Ampliando.. :loudspeaker:
 
 
-
 En Js se trabajó con funciones, arrays, condicionales, eventos y métodos. DOM. Los productos se cargan desde un archivo JSON y los datos del carrito se almacenan en el localstorage.
+
+Instalacion:
+SASS:
+   -Descargar e instalar NodeJs
+   -En nuestra terminal con la ruta seleccionada a mi proyecto colocar los siguientes pasos:
+   -Correr el comando npm install
+   -Por último para correr el proyecto colocar: npm run sass:watch
+
+Se utiliza Visual Studio Code o cualquier editor de código + terminal. 
+
+Autora: Laura Avalle - laheavy@gmail.com
 
