@@ -168,14 +168,20 @@ function verCarrito(arr){
         const totalCarrito = miTrolley.reduce((acc, vela)=> acc + (vela.valor * vela.cant) ,0)
         //ternario 
         totalCarrito == 0 ?
-        sumaTotalCarrito.innerHTML=`No hay productos agregados` :
+        sumaTotalCarrito.innerHTML=`<p class="text-center text-pink">No hay productos agregados</p>` :
         sumaTotalCarrito.innerHTML=`<p class="ms-4">El total de su compra es: $ <strong>${totalCarrito}</strong></p>`
         totalAbonarFin.innerHTML=`
         <div class="bg-light p-2 mt-3">
             <p class="ms-2 fs-5 mt-4 text-pink">El total de su compra es: $ <strong>${totalCarrito}</strong></p>
         </div>
         `
-        //return totalCarrito
+        //si el carrito esta vacio oculto los btn de limpiar carrito y finalizar la compra
+        let vacio
+        totalCarrito == 0 ?
+        vacio = true :
+        vacio = false
+        vacio && (btnConfirm.classList.add("d-none") , btnCleanTrolley.classList.add("d-none"))
+        
         console.log(totalCarrito)
         console.log(miTrolley)
 }
