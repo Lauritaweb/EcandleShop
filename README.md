@@ -19,6 +19,7 @@ Framework...
 
 Librerias...
 - SweetAlert :yum:
+- Toastify :bread:
 
 *El proyecto es responsive, se trabajó con el sistema de grilla de BS y sus utilities. 
 
