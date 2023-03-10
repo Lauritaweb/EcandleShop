@@ -8,8 +8,8 @@
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <!-- linkeamos a nuestro css -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <!-- tostify -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- toastify -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
   </head>
   <body onload="cargarContenido()">
     <div class="spinner-border" role="status" id="loading"></div>
@@ -183,14 +183,14 @@
       <div class="modal-content" style="overflow-y: scroll; height: 90vh;">
         <div class="modal-header">
           <h3 class="modal-title d-flex" id="finCarrito">Finalizando la compra
-            <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="auto" fill="deeppink" class="me-4 bi bi-truck" viewBox="0 0 16 16" style="display:block;margin:auto">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="auto" fill="deeppink" class="ms-4 bi bi-truck" viewBox="0 0 16 16" style="display:block;margin:auto">
               <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
             </svg>
           </h3>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body" id="bodyFinCarrito">
-          <form action="">
+          <form action="" id="formEndCarrito">
             <div class="mb-3">
               <label for="email" class="form-label">Email</label>
               <input type="email" class="form-control" id="email" placeholder="name@example.com">
@@ -201,13 +201,13 @@
             </div>
             <div class="mb-3">
               <label for="provincias" class="form-label">Número de tarjeta</label>
-              <input type="number" class="form-control" id="tel" placeholder="11555555">
+              <input type="number" class="form-control" id="tarjeta" placeholder="11555555">
               <small>Escribe los números de tu tarjeta sin espacios ni guiones</small>
             </div>
             <div class="mb-3">
               <label for="caducidad" class="form-label">Fecha de caducidad</label>
               <div class="row">
-                <select class="form-select col-md-6 date" aria-label="caducidad">
+                <select class="form-select col-md-6 date" aria-label="caducidad" id="caducidad">
                   <option selected>12</option>
                   <option value="1">01</option>
                   <option value="2">02</option>
@@ -216,7 +216,7 @@
                   <option value="5">05</option>
                   <option value="6">06</option>
                 </select>
-                <select class="form-select col-md-6 date" aria-label="anio">
+                <select class="form-select col-md-6 date" aria-label="anio" id="anio">
                   <option selected>2026</option>
                   <option value="1">One</option>
                   <option value="2">Two</option>
@@ -230,12 +230,12 @@
                 <small class="text-secondary">Escribe el nombre tal y como aparece en tu tarjeta</small>
               </div>
               <div class="mb-3">
-                <label for="titular" class="form-label">Código de seguridad</label>
-                <input type="number" class="form-control" id="" placeholder="">
+                <label for="codigo" class="form-label">Código de seguridad</label>
+                <input type="number" class="form-control" id="codigo" placeholder="">
                 <small class="text-secondary">Escribe el nombre tal y como aparece en tu tarjeta</small>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <input class="form-check-input" type="checkbox" value="" id="guardarTarjeta" checked>
                 <label class="form-check-label" for="flexCheckChecked">
                   <small class="text-secondary">Guardar esta tarjeta para futuras compras</small>
                 </label>
@@ -257,8 +257,8 @@
   
   <!-- sweet alert -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  <!-- luxon -->
-  <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js"></script>
+  <!-- toasty -->
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
   <!-- mi js -->
   <script src="js/class.js"></script>
   <script src="js/dom.js"></script>

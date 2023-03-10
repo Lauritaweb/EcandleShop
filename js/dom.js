@@ -17,4 +17,11 @@ let loading = document.getElementById("loading");
 let btnConfirm = document.getElementById("btnConfirm")
 let totalAbonarFin = document.getElementById("totalAbonarFin")
 let btnGracias = document.getElementById("btnGracias")
+let email = document.getElementById("email")
+let tel = document.getElementById("tel")
+let tarjeta = document.getElementById("tarjeta")
+let caducidad = document.getElementById("caducidad")
+let anio = document.getElementById("anio")
+let titular = document.getElementById("titular")
+let codigo = document.getElementById("codigo")
 

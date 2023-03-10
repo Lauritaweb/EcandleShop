@@ -68,3 +68,4 @@ if(localStorage.getItem("miTrolley")){
     //guardo mi array en el local storage
     localStorage.setItem("miTrolley", JSON.stringify(miTrolley))
 }
+

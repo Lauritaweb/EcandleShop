@@ -151,7 +151,7 @@ function verCarrito(arr){
                 <h5>Prodcuto: ${vela.prod}</h5>
                 <p>Valor por unidad: $ ${vela.valor}</p>
                 <p>Cantidad: ${vela.cant}</p>
-                <p><strong>Subtotal:</strong>${vela.valor * vela.cant}</p>
+                <p><strong>Subtotal:$</strong>${vela.valor * vela.cant}</p>
             </div>
             <button type="button" class="btn btn-outline-primary" id="btnRemoveItem" onclick="removeProd(miTrolley)">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
@@ -277,10 +277,111 @@ btnConfirm.addEventListener("click",()=>{
 
 //btn gracias por su compra
 btnGracias.addEventListener("click",()=>{
-   alert("va a finalizar la compra y se va a vaciar el carrito")
-    removeTrolley(miTrolley)
-    console.log("fin")
+    if (email.value.trim() === '') {
+        Toastify({
+            text:"El campo de email es obligatorio",
+            duration:3000,
+            backgroundColor: "#c0392b",
+            className: "error",
+            gravity:"center",
+            position:"center",
+        }).showToast();
+        return
+    }
+    
+    if (tel.value.trim() === '') {
+        Toastify({
+            text:"El campo de teléfono es obligatorio",
+            duration:3000,
+            backgroundColor: "#c0392b",
+            className: "error",
+            gravity:"center",
+            position:"center",
+        }).showToast();
+        return
+    }
+
+    if (tarjeta.value.trim() === '') {
+        Toastify({
+            text:"El campo de email es obligatorio",
+            duration:3000,
+            backgroundColor: "#c0392b",
+            className: "error",
+            gravity:"center",
+            position:"center",
+        }).showToast();
+        return
+    }
+
+    if (caducidad.value.trim() === '') {
+        Toastify({
+            text:"El campo de caducidad es obligatorio",
+            duration:3000,
+            backgroundColor: "#c0392b",
+            className: "error",
+            gravity:"center",
+            position:"center",
+        }).showToast();
+        return
+    }
+
+    if (anio.value.trim() === '') {
+        Toastify({
+            text:"El campo del año es obligatorio",
+            duration:3000,
+            backgroundColor: "#c0392b",
+            className: "error",
+            gravity:"center",
+            position:"center",
+        }).showToast();
+        return
+    }
+
+    if (titular.value.trim() === '') {
+        Toastify({
+            text:"El campo titular es obligatorio",
+            duration:3000,
+            backgroundColor: "#c0392b",
+            className: "error",
+            gravity:"center",
+            position:"center",
+        }).showToast();
+        return
+    }
+
+    if (codigo.value.trim() === '') {
+        Toastify({
+            text:"El campo código es obligatorio",
+            duration:3000,
+            backgroundColor: "#c0392b",
+            className: "error",
+            gravity:"center",
+            position:"center",
+        }).showToast();
+        return
+    }
+
+    else{
+        alert("va a finalizar la compra y se va a vaciar el carrito")
+        removeTrolley(miTrolley)
+        console.log("fin")
+        //no me muestra la notificacion de toastify, intente poniendo un setTimeOut para el return pero no lo pude solucionar por eso puse un alert
+        // Toastify({
+        //     text:"Su compra se ha realizado con éxito y se ha vaciado el carrito",
+        //     duration:3000,
+        //     backgroundColor: "#27ae60",
+        //     className: "success",
+        //     gravity:"bottom",
+        //     position:"top-center",
+        //     stopOnFocus:true,
+        // }).showToast();
+        setTimeout(function() {
+            return;
+        }, 2000); // Espera 2 segundos antes de devolver el control
+    }
+   
 })
+
 
 //llama al loading
 window.addEventListener("load", cargarContenido);
